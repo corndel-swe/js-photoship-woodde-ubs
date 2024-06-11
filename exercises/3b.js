@@ -12,4 +12,12 @@
  */
 export function formatPrice(amount, currency) {
   // TODO
+  // set px two decimal places
+  const displayAmnt = amount.toFixed(2)
+  // prepend currency 
+  const result = currency + displayAmnt
+  console.log(result)
+  return result
+
+
 }
