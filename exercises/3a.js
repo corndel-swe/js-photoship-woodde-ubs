@@ -11,4 +11,16 @@
  */
 export function nameTag(name) {
   // TODO
+  // turn name to uppercase
+  const uppercaseName = name.toUpperCase()
+  // add the rest of the string
+  const result = "Hello, my name is " + uppercaseName + "!"
+  // return result
+
+
+  console.log(result)
+  return result
+
 }
+
+// const name = 'Denise'
